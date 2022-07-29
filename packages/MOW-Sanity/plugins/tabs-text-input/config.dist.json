@@ -1,0 +1,26 @@
+{
+    "panels": [
+        {
+            "slug": "loved",
+            "title": "What we Loved",
+            "input": "richText"
+        },
+        {
+            "slug": "wow",
+            "title": "Wow factor",
+            "input": "textArea",
+            "size": 10
+        },
+        {
+            "slug": "price",
+            "title": "Price",
+            "input": "textArea",
+            "size": 3
+        },
+        {
+            "slug": "link",
+            "title": "Link",
+            "input": "text"
+        }
+    ]
+}

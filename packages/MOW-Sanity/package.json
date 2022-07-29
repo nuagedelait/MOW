@@ -1,0 +1,42 @@
+{
+  "name": "made-of-wanderlust-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Rune Botten <rune@sanity.io>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "dev": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@googlemaps/typescript-guards": "^2.0.1",
+    "@sanity/base": "^2.29.8",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.29.5",
+    "@sanity/default-layout": "^2.29.8",
+    "@sanity/default-login": "^2.29.8",
+    "@sanity/desk-tool": "^2.29.8",
+    "@sanity/vision": "^2.29.8",
+    "country-list": "^2.2.0",
+    "fast-equals": "^4.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0",
+    "react-chess": "^1.1.0",
+    "react-dom": "^17.0",
+    "react-icons": "^3.11.0",
+    "sanity-plugin-intl-input": "^5.2.1",
+    "sanity-plugin-media": "^1.4.10",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.29.8"
+  }
+}

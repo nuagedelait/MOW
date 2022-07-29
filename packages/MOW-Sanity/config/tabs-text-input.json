@@ -1,0 +1,26 @@
+{
+    "panels": [
+        {
+            "slug": "loved",
+            "title": "Ce qu'on a aimé",
+            "input": "richText"
+        },
+        {
+            "slug": "wow",
+            "title": "Le petit plus",
+            "input": "textArea",
+            "size": 10
+        },
+        {
+            "slug": "price",
+            "title": "Prix",
+            "input": "textArea",
+            "size": 3
+        },
+        {
+            "slug": "link",
+            "title": "Link",
+            "input": "text"
+        }
+    ]
+}
