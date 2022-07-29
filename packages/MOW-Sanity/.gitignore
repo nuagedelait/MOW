@@ -1,1 +1,7 @@
-node_modules
+/*
+
+!.nvmrc
+!lerna.json
+!package.json
+!sanity.json
+!yarn.lock
