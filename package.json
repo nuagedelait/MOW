@@ -1,7 +1,20 @@
 {
-  "name": "root",
+  "name": "made-of-wanderlust",
+  "version": "0.1.0",
   "private": true,
+  "description": "Lerna package sanity & nextjs",
+  "scripts": {
+    "dev": "lerna run --scope MOW-nextjs --stream dev && lerna run --scope MOW-nextjs --stream dev",
+    "dev:c": "concurrently \"cd MOW-nextjs && next --port $PORT\" \"cd MOW-sanity && sanity start\"",
+    "build": "echo 'Building Sanity to public/studio' && cd studio && sanity build ../public/studio -y && cd .. && next build",
+    "start": "vercel dev",
+    "postinstall": "lerna bootstrap"
+  },
+  "keywords": [],
+  "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT",
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "lerna": "^3.22.1"
   }
 }
