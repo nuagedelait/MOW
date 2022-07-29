@@ -1,14 +1,1 @@
-# Mac files
-.DS_Store
-
-# ignore all
-/*
-
-# commit theses
-!lerna.json
-!package.json
-!README.md
-!yarn.lock
-
-# lerna files
-/lerna-debug.log
+node_modules
