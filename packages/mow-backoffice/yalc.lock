@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "packages": {
+    "sanity-plugin-pagebuilder": {
+      "signature": "27e598f4d0336c773dfb9a9ef25f6f69",
+      "file": true
+    },
+    "sanity-plugin-blog": {
+      "signature": "a093ec56296c0ec7c3e7c9e9cdc0d154",
+      "file": true
+    },
+    "sanity-plugin-sections": {
+      "signature": "4a4c6f4fd5d3339d44499f714d2f1a65",
+      "file": true
+    }
+  }
+}
