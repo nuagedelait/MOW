@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "sanity-plugin-blog": {
-      "signature": "9503505d1521161b510c5a0912b337fb",
-      "pure": true
-    }
-  }
-}
